@@ -20,7 +20,7 @@ public class ReadingCSVFiles {
 				}
 			
 	} catch (FileNotFoundException e) {
-		System.out.println(e);
+		e.printStackTrace();
 	}
 }
 }
